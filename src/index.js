@@ -7,11 +7,12 @@ import * as serviceWorker from './serviceWorker';
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap-social/bootstrap-social.css';
 import { Auth0Provider } from "@auth0/auth0-react";
+import {domain,clientId} from './auth-details';
 
 ReactDOM.render(
     <Auth0Provider
-    domain=""
-    clientId=""
+    domain= {domain}
+    clientId= {clientId}
   >
     <App />
     </Auth0Provider>,
