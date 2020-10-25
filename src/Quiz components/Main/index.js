@@ -7,7 +7,7 @@ import {
   Divider,
   Button
 } from 'semantic-ui-react';
-//import codeImg from '../../assets/images/code.png';
+import Img from '../../images/bg1.jpeg';
 
 import {
   CATEGORIES,
@@ -59,10 +59,10 @@ class Main extends Component {
         <Segment>
           <Item.Group divided>
             <Item>
-              {/*<Item.Image src={codeImg} /> */}
+              <Item.Image src={Img} /> 
               <Item.Content>
                 <Item.Header>
-                  <h1>Open Quiz Questions</h1>
+                  <h1 style= {{backgroundColor: "white"}}>Open Quiz Questions</h1>
                 </Item.Header>
                 <br />
                 <Divider />
