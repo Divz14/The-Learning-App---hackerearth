@@ -18,6 +18,7 @@ import Python from './PythonComponent';
 import Biology from './BiologyComponent';
 import Physics from './PhysicsComponent';
 import Contactus from './ContactusComponent';
+import QuizPage from '../Quiz components/Quiz Page/index';
 
 class Main extends Component {
 
@@ -115,6 +116,12 @@ class Main extends Component {
         )
       }
 
+      const quiz = () => {
+        return(
+          <QuizPage />
+        )
+      }
+
 
     return (
       <>
@@ -135,6 +142,7 @@ class Main extends Component {
            <Route path='/python' component= {python} />
            <Route path='/physics' component={physics} />
            <Route path='/biology' component = {biology} />
+           <Route path='/quiz' component = {quiz} />
            <Route path='/stackoverflowblogs' component={() => { 
               window.location.href = 'https://communitylearn.herokuapp.com/'; 
               return null;

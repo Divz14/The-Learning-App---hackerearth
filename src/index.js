@@ -8,6 +8,7 @@ import 'font-awesome/css/font-awesome.css';
 import 'bootstrap-social/bootstrap-social.css';
 import { Auth0Provider } from "@auth0/auth0-react";
 import {domain,clientId} from './auth-details';
+import 'semantic-ui-css/semantic.min.css'
 
 ReactDOM.render(
     <Auth0Provider
