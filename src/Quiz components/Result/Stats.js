@@ -59,7 +59,7 @@ const Stats = props => {
           size="big"
           icon="home"
           labelPosition="left"
-          style={{ marginBottom: 8 }}
+          style={{ marginBottom: 4, marginRight: 20 }}
         />
       </div>
     </Segment>

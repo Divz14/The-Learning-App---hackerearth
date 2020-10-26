@@ -45,32 +45,17 @@ class Header extends Component {
     }
 
     return (
-      <Menu stackable inverted size="massive">
+      <Menu stackable inverted size="massive" style={{backgroundColor: "purple"}}>
         <Menu.Item>
           <h1
             style={{
-              color: '#AA12CC',
+              color: 'white',
               cursor: 'pointer'
             }}
           >
             Test your skills by taking quiz in various domains
           </h1>
         </Menu.Item>
-
-        {promptEvent && !isAppInstalled && (
-          <Menu.Menu position="right">
-            <Menu.Item>
-              <Button
-                color="teal"
-                content="Install App"
-                size="big"
-                icon="app store"
-                labelPosition="left"
-                onClick={this.installApp}
-              />
-            </Menu.Item>
-          </Menu.Menu>
-        )}
       </Menu>
     );
   }

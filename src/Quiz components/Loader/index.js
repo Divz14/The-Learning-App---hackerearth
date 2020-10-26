@@ -10,6 +10,9 @@ const Loader = ({ text }) => (
         {text || 'We are fetching that content for you.'}
       </Message.Content>
     </Message>
+    <br>
+    </br>
+    <br/><br/><br/><br/><br/>
   </Container>
 );
 

@@ -71,7 +71,7 @@ class Main extends Component {
                     fluid
                     selection
                     name="category"
-                    placeholder="Select Quiz Category"
+                    placeholder="Select Quiz Domain"
                     options={CATEGORIES}
                     onChange={(e, { name, value }) =>
                       this.setValue(name, value)
@@ -82,7 +82,7 @@ class Main extends Component {
                     fluid
                     selection
                     name="numOfQ"
-                    placeholder="Select No. of Questions"
+                    placeholder="Select Number of Questions"
                     options={NUM_OF_QUESTIONS}
                     onChange={(e, { name, value }) =>
                       this.setValue(name, value)
