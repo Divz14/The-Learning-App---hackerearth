@@ -240,7 +240,7 @@ class Quiz extends Component {
         {!isOffline && !quizIsCompleted && isLoading && <Loader />}
 
         {!isOffline && !isLoading && (
-          <Container>
+          <Container style={{backgroundColor: "white"}}>
             <Segment>
               <Item.Group divided>
                 <Item>
@@ -332,7 +332,7 @@ class Quiz extends Component {
         )}
 
         {quizIsCompleted && !resultRef && (
-          <Loader text="Fetching your results" />
+          <Loader text="Fetching your results" style= {{backgroundColor: "white"}}/>
         )}
 
         {quizIsCompleted && resultRef}

@@ -31,7 +31,7 @@ class Result extends Component {
     } = this.props;
 
     return (
-      <Container>
+      <Container style={{backgroundColor: "purple"}}>
         <Menu fluid widths={2}>
           <Menu.Item
             name="Stats"

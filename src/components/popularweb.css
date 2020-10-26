@@ -1,7 +1,12 @@
 .back {
-    background-image: url('../images/bg1.jpeg');
+    background: url('../images/bg1.jpeg') no-repeat center center fixed; 
     /* background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  */
     overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+ 
 }
