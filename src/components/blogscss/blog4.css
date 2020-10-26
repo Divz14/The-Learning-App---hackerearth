@@ -1,6 +1,9 @@
 .backgimg {
-    background-image: url("../../images/bg7.jpg");
-    background-repeat: no-repeat;
+    background: url("../../images/bg7.jpg") no-repeat center center fixed;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
 
 }
