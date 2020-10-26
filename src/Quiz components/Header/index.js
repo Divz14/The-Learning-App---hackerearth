@@ -49,7 +49,7 @@ class Header extends Component {
         <Menu.Item>
           <h1
             style={{
-              color: '#2185D0',
+              color: '#AA12CC',
               cursor: 'pointer'
             }}
           >

@@ -7,7 +7,7 @@ import {
   Divider,
   Button
 } from 'semantic-ui-react';
-import Img from '../../images/bg1.jpeg';
+import Img from '../../images/motion1.png';
 
 import {
   CATEGORIES,
